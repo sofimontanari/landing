@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  flex-wrap: wrap;
+  /*esto es para que cuando se achique la tarjeta pase abajo de las otras */
 }
 
 .card{
@@ -11,8 +13,6 @@
   text-align: center;
   padding: 20px;
   border: 1px solid rgb(230,230,230);
-  flex-wrap: wrap;
-  /*esto es para que cuando se achique la tarjeta pase abajo de las otras */
 }
 
 .cards .card img {
@@ -24,7 +24,7 @@
 }
 
 @media(max-width: 900px) {
-  .card {
+  .cards {
     margin-bottom: 15px;
   }
 }

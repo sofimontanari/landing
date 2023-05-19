@@ -1,7 +1,8 @@
 .banner {
   background-image: url(../../images/background.png);
   background-size: cover;
-  padding: 200px;
+  background-position: center;
+  padding: 200px 0px;
 }
 
 .banner h1 {
@@ -25,4 +26,3 @@
 .banner a:hover {
   cursor: pointer;
 }
-
