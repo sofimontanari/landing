@@ -1,0 +1,20 @@
+.footer{
+  background-color: #2c2b2b;
+  padding: 60px;
+}
+
+.footer .links {
+  text-align: center;
+}
+.footer .links a {
+  font-size: 30px;
+  color:  #1EDD88;
+}
+
+.footer .links p {
+  color: #6B6C6C;
+}
+
+.footer .links p i {
+  color: red;
+}

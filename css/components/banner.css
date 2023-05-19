@@ -1,0 +1,28 @@
+.banner {
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  padding: 200px;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.banner a {
+  color: white ;
+  background-color: #1EDD88;
+  border-radius: 50px;
+  padding: 16px 36px;
+  display: inline-block;
+}
+
+.banner a:hover {
+  cursor: pointer;
+}
+
